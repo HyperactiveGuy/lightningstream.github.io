@@ -31,6 +31,7 @@
     ],
     "parserOptions": {
       "parser": "babel-eslint"
+      
     },
     "rules": {}
   },
