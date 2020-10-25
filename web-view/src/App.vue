@@ -53,6 +53,7 @@ export default {
   background-color: black;
   width: 100vw;
   height: calc(100vh - 80px);
+  font-weight: bold;
 }
 body {
   margin:0;
