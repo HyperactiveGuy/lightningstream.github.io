@@ -1,0 +1,7 @@
+{
+"parameters" : [
+        {"key" : "hallo", "value" : "123"},
+        {"key" : "test", "value" : "ja"}
+]
+
+}
