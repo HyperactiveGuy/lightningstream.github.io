@@ -1,5 +1,5 @@
 <template>
-  <div class="wrong_answer">
+  <div class="card">
 
     <img id="cross" src="../assets/images/red_cross.svg"/>
     <p class="error">
@@ -46,6 +46,9 @@ export default {
 
 
 <style>
+.card {
+  background-image:url("../assets/images/icy_background.png")
+}
 .error {
   font-size: 35px;
   color: #090606;
@@ -56,13 +59,5 @@ export default {
 }
 #cross  {
   margin-top: 170px;
-}
-.wrong_answer {
-  background-image: url("../assets/images/icy_background.png");
-  background-repeat: no-repeat;
-  height: 800px;
-  width: 600px;
-  margin: auto;
-  border-radius: 20px;
 }
 </style>

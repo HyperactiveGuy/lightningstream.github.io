@@ -1,7 +1,8 @@
 {
 "parameters" : [
-        {"key" : "hallo", "value" : "123"},
-        {"key" : "test", "value" : "ja"}
+        {"key" : "localhost", "value" : "auf_gute_freunde"},
+        {"key" : "stackoverflow", "value" : "qrow"}
+
 ]
 
 }
