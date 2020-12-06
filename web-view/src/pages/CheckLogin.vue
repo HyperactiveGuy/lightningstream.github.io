@@ -10,28 +10,26 @@ export default {
   name: 'CheckLogin',
   data: function() {
     return {
-      queryParameters: require('../../../queryParameters.json'),
+      queryParameters: require('./queryParameters.json'),
     }
   },
   mounted() {
-      console.log("moi")
     if(this.$route.path === "/Wrong")
       return;
     else if(this.$route.path.includes("/Access")) {
       //check if session key is right
       console.log("Access")
     } else if(this.checkLoginQueryParameters()) {
-      this.$router.push({path: `Access/123456`});
+      this.$router.push({path: `Access/6338369`});
     } else {
       this.$router.push({path: "Wrong"});
     }
   },
   methods: {
     checkLoginQueryParameters() {
-      for(let i = 0; i < this.queryParameters.parameters.length; i++) {
-        let queryParameter = this.queryParameters.parameters[i];
+      for(let i = 0; i < this.queryParameters[5].length; i++) {
+        let queryParameter = this.queryParameters[5][i];
         let queryValueForKey = this.$route.query[queryParameter.key]
-        console.log(queryValueForKey)
         //Check if either the required list value is not in the query url or if the query value is wrong (when value != value of the list parameter)
         if(!queryValueForKey || queryValueForKey !== queryParameter.value)
           return false;    
@@ -42,7 +40,7 @@ export default {
 }
 
 </script>
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

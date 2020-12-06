@@ -28,7 +28,6 @@ export default {
     methods: {
         checkValue() {
             if(this.solution.toLowerCase() === this.solutions[this.value]) {
-                         console.log(this.solution.toLowerCase()) 
                 this.$router.push("/Access/" + this.value);
             } else {
                 this.$router.push("wrong");

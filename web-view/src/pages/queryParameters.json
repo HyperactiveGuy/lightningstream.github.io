@@ -1,0 +1,33 @@
+
+{
+
+"0" : [
+        {"key" : "freunde", "value" : "sind"},
+        {"key" : "toll", "value" : "frosch"}
+],
+"1" : [
+        {"key" : "das", "value" : "nennt"},
+        {"key" : "man", "value" : "cheaten"}
+],
+"2" : [
+        {"key" : "gamer", "value" : "auf_gute_freunde"},
+        {"key" : "pc", "value" : "iop"}
+],
+"3" : [
+        {"key" : "localhost", "value" : "auf_gute_freunde"},
+        {"key" : "gitlab", "value" : "qrow"}
+],
+"4" : [
+        {"key" : "github", "value" : "memories"},
+        {"key" : "127.0.0.1", "value" : "thor"}
+],
+"5" : [
+        {"key" : "stackoverflow", "value" : "auf_gute_freunde"},
+        {"key" : "localhost", "value" : "qrow"}
+],
+"6" : [
+        {"key" : "youtube", "value" : "auf_gute_freunde"},
+        {"key" : "lokal", "value" : "rwby"}
+]
+
+}

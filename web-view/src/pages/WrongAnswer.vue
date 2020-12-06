@@ -45,13 +45,13 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
 .card {
   background-image:url("../assets/images/icy_background.png")
 }
 .error {
   font-size: 35px;
-  color: #090606;
+  color: rgba(0, 0, 0, 0.85);;
   display: block;
   margin-left: 40px;
   margin-right: 40px;

@@ -1,7 +1,7 @@
 <template>
   <div id="access">
     <div class="card overwrite">
-      <Solution :hint="marvinHint" value="5852329"></Solution>
+      <Solution :hint="hint" value="1327750"></Solution>
     </div>
   </div>
 </template>
@@ -13,7 +13,7 @@ export default {
   components: {Solution},
   data: function () {
     return {
-      marvinHint: "{{M-2}}",
+      hint: "{C-2} => {WHAT?} = {WHAT}{T-2}",
       solution: ""
     };
   },
@@ -27,6 +27,13 @@ export default {
 <style scoped>
 
 .overwrite {
-  background-image: url("../assets/images/riddle_1.png");
+  background-image: url("../assets/images/riddle_4.png");
 }
+/deep/ .button  {
+    color: rgba(3, 4, 3, 0.65);
+}
+.solution-wrapper {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
 </style>

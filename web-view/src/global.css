@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Gameplay";
+  src: url("../src/assets/fonts/Gameplay.ttf");
+}
+
 .card {
   background-image: url("assets/images/icy_background.png");
   background-repeat: no-repeat;

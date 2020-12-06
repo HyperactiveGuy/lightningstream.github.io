@@ -1,7 +1,7 @@
 <template>
   <div id="access">
     <div class="card overwrite">
-      <Solution :hint="marvinHint" value="5852329"></Solution>
+      <Solution :hint="lukasHint" value="1589115"></Solution>
     </div>
   </div>
 </template>
@@ -13,7 +13,7 @@ export default {
   components: {Solution},
   data: function () {
     return {
-      marvinHint: "{{M-2}}",
+      lukasHint: "Ein Wort = Eine Zahl. Findet die Gemeinsamkeit.",
       solution: ""
     };
   },
@@ -27,6 +27,13 @@ export default {
 <style scoped>
 
 .overwrite {
-  background-image: url("../assets/images/riddle_1.png");
+  background-image: url("../assets/images/riddle_5.png");
 }
+/deep/ .button  {
+    color: rgba(159, 123, 85, 0.65);
+}
+.solution-wrapper {
+  background-color: rgba(159, 123, 85, 0.65);
+}
+
 </style>
