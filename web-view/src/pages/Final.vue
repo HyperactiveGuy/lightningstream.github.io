@@ -1,6 +1,6 @@
 <template>
 <div class="yt-link">
-<a href="test">Klick mich!</a>
+<a href="https://youtu.be/3MeyJ4H6F3M">Klick mich!</a>
 </div>
 </template>
 
